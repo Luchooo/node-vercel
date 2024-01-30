@@ -4,7 +4,7 @@
   "description": "Example deploy Node in Vercel",
   "main": "build/src/index.js",
   "scripts": {
-    "vercel:build": "echo building project...",
+    "vercel-build": "echo building project...",
     "build": "tsc",
     "init": "npx tsc --init",
     "dev": "tsx --watch ./src/index.ts",
