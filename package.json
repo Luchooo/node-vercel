@@ -8,7 +8,7 @@
     "build": "tsc",
     "init": "npx tsc --init",
     "dev": "tsx --watch ./src/index.ts",
-    "fm": "prettier --write .",
+    "fm": "prettier --write src",
     "lint": "eslint --fix . --ext .js,.jsx,.ts,.tsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
