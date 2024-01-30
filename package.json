@@ -1,0 +1,40 @@
+{
+  "name": "vercel",
+  "version": "1.0.0",
+  "description": "Example deploy Node in Vercel",
+  "main": "build/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "init": "npx tsc --init",
+    "dev": "tsx --watch ./src/index.ts",
+    "fm": "prettier --write .",
+    "lint": "eslint --fix . --ext .js,.jsx,.ts,.tsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luchooo/node-vercel.git"
+  },
+  "keywords": [
+    "vercel",
+    "nodejs"
+  ],
+  "author": "Luis Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luchooo/node-vercel/issues"
+  },
+  "homepage": "https://github.com/Luchooo/node-vercel#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "6.20.0",
+    "@typescript-eslint/parser": "6.20.0",
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "9.1.0",
+    "prettier": "3.2.4",
+    "tsx": "^4.7.0",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "winston": "3.11.0"
+  }
+}
